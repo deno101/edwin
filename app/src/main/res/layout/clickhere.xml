@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clickhere"
+    android:background="@drawable/back"
+    >
+<Button
+    android:id="@+id/click"
+    android:layout_width="150dp"
+    android:layout_height="250dp"
+    android:layout_centerHorizontal="true"
+    android:text="Click Here to Vote"
+    android:textColor="#050607"
+    android:textSize="27dp"
+    android:background="@drawable/custom_button1"
+    android:layout_below="@+id/header"
+    android:layout_marginTop="57dp"
+    android:layout_marginRight="92dp"
+    android:layout_marginEnd="125dp"
+    />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to C.V.S."
+        android:fontFamily="@font/abril_fatface"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#0E4AC4"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/click"
+        android:layout_centerHorizontal="true"
+        android:text="Your vote,your future."
+        android:layout_marginTop="32sp"
+        android:fontFamily="@font/abril_fatface"
+        android:textColor="#0C0C0C"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple,Transparent,Honest And Reliable"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="45sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#830814"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
